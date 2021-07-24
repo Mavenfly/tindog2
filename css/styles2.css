@@ -1,0 +1,263 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2 {
+  color: white;
+}
+
+h1, h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1.5;
+  margin-top: 10%;
+}
+
+h2 {
+  padding: 3% 15% 3%;
+  line-height: 2;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.1rem;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title */
+#title h1 {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.apple-logo {
+  height: 25px;
+  margin-right: 5px;
+}
+
+button {
+  margin-top: 5%;
+}
+
+#apple-btn {
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 0 15px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.navbar {
+  padding-bottom: 5%;
+}
+
+.dog-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  /*  L'image est positionnée par rapport à son parent : l'élément colum. */
+  right: 30%;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .dog-img {
+    width: 70%;
+    position: absolute;
+    right: 20%;
+  }
+
+  .dog-col {
+    padding: 15% 0 80%;
+  }
+
+
+  #title h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: normal;
+  }
+
+  #press .press-img {
+    width: 50%;
+  }
+
+
+  #pricing .card-column {
+    padding: 5% 10%;
+  }
+
+  body #cta h3 {
+    font-size: 2rem;
+    padding-bottom: 2%;
+  }
+
+  body #footer {
+    padding: 7% 15%;
+  }
+
+  #footer p {
+    padding-top: 2%;
+  }
+}
+
+.dog-col {
+  position: relative;
+  /* Le positionnement de l'image se fait par rapport à son parent (la column) car sa position est en "relative". */
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%
+}
+
+#features h3 {
+  font-size: 1.7rem;
+  padding: 0 0 2% 0;
+}
+
+.features-img {
+  Color: #EF8172;
+  font-size: 3.5rem;
+  margin-bottom: 3%;
+}
+
+.features-img:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #EF8172;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 7%;
+  margin-right: 20px;
+}
+
+/* Press section */
+#press {
+  background-color: #EF8172;
+}
+
+.press-img {
+  margin: 50px 0 50px;
+  width: 70%;
+}
+
+#press .container-fluid {
+  padding: 3% 15%;
+}
+
+/* Pricing */
+.card-column {
+  padding: 3% 1.5%;
+}
+
+#pricing {
+  padding: 3% 10%;
+}
+
+.pricing-title {
+  color: black;
+  padding: 0;
+  font-weight: bold;
+}
+
+.card-header h3 {
+  color: #EF8172;
+  padding: 0;
+}
+
+.card-body h2 {
+  color: black;
+  padding: 0;
+}
+
+#pricing button {
+  width: 100%;
+  background-color: #EF8172;
+  border: none;
+  color: white;
+}
+
+#pricing button:hover {
+  background-color: white;
+  border: solid 1px;
+  border-color: #EF8172;
+  color: #EF8172;
+}
+
+/* Call to action */
+#cta {
+  color: white;
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  font-size: 3rem;
+}
+
+/* Footer */
+#footer {
+  padding: 7% 30%;
+}
+
+.footer-icon {
+  margin: 0 1% 3%;
+}
