@@ -111,19 +111,35 @@ button {
     right: 20%;
   }
 
+  .navbar-brand {
+    font-size: 4rem;
+  }
+
   .dog-col {
     padding: 15% 0 80%;
   }
 
-
   #title h1 {
-    font-size: 3rem;
+    font-size: 5rem;
+  }
+
+  #apple-btn, #android-btn {
+    width: 40%;
+    height: 12%;
   }
 
   h2 {
     font-size: 2rem;
     line-height: 1.2;
     font-weight: normal;
+  }
+
+  body #features h3 {
+    font-size: 3rem;
+  }
+
+  body #features p {
+    font-size: 1.5rem;
   }
 
   #press .press-img {
@@ -146,6 +162,11 @@ button {
 
   #footer p {
     padding-top: 2%;
+  }
+
+  .fa-bars {
+    color: #fff;
+    font-size: 3rem;
   }
 }
 
